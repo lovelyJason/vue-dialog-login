@@ -2,9 +2,11 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
+import Dialog from './plugin/vue-dialong-login.js'
 
 Vue.config.productionTip = false
 
+Vue.use(Dialog)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
