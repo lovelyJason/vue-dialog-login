@@ -27,7 +27,7 @@ Vue.use(Dialog)
 ```
 <template>
 	<div>
-		<vue-dialog :flagobj="flagobj" :type="type"></vue-dialog>
+		<vue-dialog :flagObj="flagObj" :type="type"></vue-dialog>
 	</div>
 <template>
 
@@ -35,7 +35,7 @@ Vue.use(Dialog)
 	export default {
         data: function(){
             return {
-                flagobj:{flag:false},
+                flagObj:{flag:false},
                 type: '8'
             }
         }
